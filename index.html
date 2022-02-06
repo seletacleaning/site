@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Seleta Cleaning | Limpeza</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1><a href="index.html" class="logo">Seleta Cleaning</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Services</a></li>
+                    <li><a href="docs.html">Terms</a></li>
+                    <li><a href="book.html">Book</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h2>We believe professional cleaning is a luxury service that you deserve to have for a reasonable price.</h2>
+                <p>Seleta Cleaning is Licensed and Insured by the State of Maryland and now serving in Annapolis, Edgewater, Crownsville, Odenton, Arnold, and Crofton.</p>
+            </div>
+            <div class="showcase-form card">
+                <h2>Request a Free Estimate</h2>
+                 <form action="https://formsubmit.co/a90284a5320a006c82a0cb29bdfead66" method="POST">
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-control">
+                       <!--<input type="option" name="tipo de limpeza" placeholder="Tipo de Limpeza" required>-->
+                        <select name="Option" required>
+                            <option value="" disabled selected hidden>Select a service</option>
+                            <option value="Regular">Regular</option>
+                            <option value="One Time">Mom´s A la carte Special</option>
+                            <option value="Deep">Deep</option>
+                            <option value="Move-In Move-Out">Move-In Move-Out</option>
+                        </select>
+                    </div>
+                    <p>Add details about the property</p>
+                    <div class="form-control">
+                        <textarea type="text" name="message" placeholder="ex. 1234 ft2/  3BD, 3BA house. / Extra Cleaning inside oven needed." rows="1"></textarea>
+                    </div>
+                    <p>Seleta Cleaning will respond within 12 hours</p>
+                    <div class="form-control">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I have read and agreed with the <a style="color: blue; text-decoration: underline;" href="docs.html" target="_blank">Terms and Conditions of Seleta Cleaning.</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-third">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" style="margin-top: 100px;">
+        <div class="container">
+            <div class="grid grid-2 text-center my-4">
+                <div class="home-text">At Seleta Cleaning, we provide <b>customized pricing</b> by the job, not by the square feet<br style="margin-bottom: 30px">
+            This will not only <b>save you money</b> but also make every job more <b>personal</b><br style="margin-bottom: 30px">
+            Seleta Cleaning is available to provide in-person quotes</div>
+                <div style="align-self: center;"><img class="home-image" src="images/dino.jpg"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Stats -->
+    <section class="stats" style="margin-top: -70px">
+        <div class="container">
+            <div class="grid grid-2 text-center my-4">
+                <div>
+                    <img class="home-image" src="images/regular.jpg">
+                    <h4><a href="features.html#Regular" class="btn btn-outline" style="width: 225px; color: black; border: 1px #000000 solid;">Regular Cleaning</a></h4>
+                </div>
+                <div>
+                    <img class="home-image" src="images/deep.jpg">
+                    <h4><a href="features.html#Deep" class="btn btn-outline" style="width: 225px; color: black; border: 1px #000000 solid;">Deep Cleaning</a></h4>
+                </div>
+                <div>
+                    <img class="home-image" src="images/onetime.jpg">
+                    <h4><a href="features.html#OneTime" class="btn btn-outline" style="width: 250px; color: black; border: 1px #000000 solid;">Mom´s A la carte Special</a></h4>
+                </div>
+                <div>
+                    <img class="home-image" src="images/movein_moveout.jpg">
+                    <h4><a href="features.html#MoveInMoveOut" class="btn btn-outline" style="width: 225px; color: black; border: 1px #000000 solid;">Move-In / Move-Out</a></h4>
+                </div>
+            </div>
+            <a href="features.html" class="center-button">Learn More</a>
+        </div>
+    </section>
+
+    <!--<section class="features-sub-head bg-light py-3">
+        <div class="container">
+            <div>
+                <p style="text-align: center;">Não entendi muito bem aqui gabi o que vc quer.</p>
+                <p style="text-align: center;">All services, except Additional Services (charged by the hour), will be scheduled only after a walk-through and quote via e-mail.</p>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Seleta Cleaning</h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Services</a></li>
+                    <li><a href="docs.html">Terms</a></li>
+                    <li><a href="book.html">Book</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-google fa-2x"></i></a>
+                <a href="mailto:seletacleaning@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                <a href="tel:843-330-9207"><i class='fas fa-phone fa-2x'></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
