@@ -366,6 +366,10 @@ select:required:invalid {
   .md {
     scroll-margin-top: 120px;
   }
+ 
+   .home-image-mobile {
+    display: none;
+  }
 
 }
 
