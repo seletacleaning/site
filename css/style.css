@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM Sans');
 
 :root {
-  --primary-color: #047aed;
+  --primary-color: #0066ff;
   --secondary-color: #1c3fa8;
-  --dark-color: #002240;
+  --dark-color: #000000;
   --light-color: #f4f4f4;
   --success-color: #5cb85c;
   --error-color: #d9534f;
@@ -20,7 +20,7 @@ html{
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'DM Sans';
   color: #333;
   line-height: 1.6;
 }
@@ -128,6 +128,7 @@ pre {
 }
 
 .showcase-text {
+  margin-top: -100px;
 }
 
 .showcase-form {
