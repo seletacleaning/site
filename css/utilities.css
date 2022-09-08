@@ -72,7 +72,7 @@
 }
 
 .bg-third,
-.btn.third,{ 
+.btn.third{ 
   background-color: var(--secondary-color);
   color: #fff;
 }
@@ -176,6 +176,10 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.grid-1 {
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .grid-3 {
